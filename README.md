@@ -1,105 +1,157 @@
-# GAPDH: supplied APRs integrated into structural analysis
+# apr-structure
 
-Study snapshot: 20 November 2026. This folder contains the actual imported
-amyloscope predictions, sequence-verified structural inputs, completed
-measurements, null tests, homologous-window comparisons and PyMOL views.
+A reusable command-line package for connecting **supplied APR predictions** to
+protein structures. It imports amyloscope intervals with exact sequence checks,
+measures accessibility and structural contacts, tests positional null models,
+projects homologous measurement windows through a supplied MSA, and generates
+protein-specific PyMOL configurations, commands, images and sessions.
 
-Start with `FINDINGS.md`, then `results/REPORT.md` and `results/GALLERY.html`.
-The reusable code is in the separate local `apr-structure` repository.
+Protein identities, sequences, ligands, target-chain counts, coordinate paths and
+analysis settings live in the study configuration. The package does not predict
+APRs or establish amyloid formation.
 
-## Inputs and scope
+## Installation
 
-- 20 native calls: human GAPDH 5; yeast TDH1 6; TDH2 5; TDH3 4.
-- Confidence classes retained exactly: 19 moderate, 1 strong. No supplied call
-  was discarded or promoted to experimentally established amyloid status.
-- Human somatic GAPDH P04406: 1U8F biological tetramer, three retained NAD.
-- Yeast TDH3 P00359: 3PYM biological tetramer, four retained NAD.
-- TDH1 P00360 and TDH2 P00358: AlphaFold monomers; assembly and NAD protection
-  remain unavailable.
-
-`inputs/consensus_regions.tsv` is copied from the actual
-`amyloscope_runlast/amyloscope_out/consensus_regions.tsv`. The original
-amyloscope config is preserved and its full sequences match the reference.
-The structural tables are frozen copies of the existing verified calculations.
-`inputs/snapshot_manifest.json` records original project paths and hashes.
-
-## Launch on this Mac
-
-From the installed study directory:
+For analysis of existing residue tables:
 
 ```bash
-cd /Users/kseniasuhanova/iCloud/Documents/Documents_icloud/Lab_amyloids/Projects/GAPDH/structural_apr/2026-11-20
-
-# Read-only validation:
-bash run.sh validate
-
-# Rebuild APR measurements from the cached structural tables:
-bash run.sh run --overwrite
-
-# Rebuild all PyMOL images and sessions and refresh the report/gallery:
-bash run.sh render
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e .
+apr-structure --help
 ```
 
-`run --overwrite` replaces this study's generated `results/` directory,
-including any previous rendered sessions. It does not modify `inputs/` or the
-older project baseline. Run `render` afterward if you want fresh PSE/PNG files.
-For a new analysis design, copy the whole study to a separate dated folder.
-
-The launcher uses the tested base Python 3.13 environment and locates the
-sibling `Projects/apr-structure` repository. It does not install packages into
-your existing environments. For another machine or location:
+For the optional mmCIF measurement backend:
 
 ```bash
-export APR_STRUCTURE_REPO=/path/to/apr-structure
-export APR_STRUCTURE_PYTHON=/path/to/python
-bash run.sh validate
+python -m pip install -e '.[measure]'
 ```
 
-After installing the reusable package, the equivalent commands are
-`apr-structure run study.json`, `apr-structure render study.json`, etc.
-PyMOL defaults to the installed Mac application or a `pymol` executable on PATH;
-override it with `bash run.sh render --pymol /path/to/pymol`.
+FreeSASA needs a working native installation. A conda environment with numpy,
+pandas, matplotlib, pyyaml, scipy, biopython and freesasa can also be used. DSSP
+is a separate executable; PyMOL is a separate application. Neither is required
+to analyze precomputed tables. The table workflow and the coordinate backend
+were tested in different existing environments; see `docs/VALIDATION.md`.
 
-## PyMOL per protein
+Without installation, set `PYTHONPATH` to this repository's `src` directory and
+run `python -m apr_structure`. The supplied GAPDH study has a launcher that does
+this, so it does not modify the existing Python environments.
 
-Open the saved PSE directly, or launch a protein-specific config:
+## Study workflow
 
 ```bash
-cd results/pymol
-/Applications/PyMOL.app/Contents/bin/pymol human_1U8F.pml
-/Applications/PyMOL.app/Contents/bin/pymol yeast_3PYM.pml
-/Applications/PyMOL.app/Contents/bin/pymol TDH1_AF.pml
-/Applications/PyMOL.app/Contents/bin/pymol TDH2_AF.pml
+apr-structure validate /path/to/study.json
+apr-structure run /path/to/study.json
+apr-structure render /path/to/study.json --pymol /path/to/pymol
 ```
 
-These are alternative commands; open the protein you want. Each has a matching
-JSON config, `*_commands.pml` with actual peptide/coordinate examples and
-`*_legend.tsv` mapping APR selectors to colours and confidence classes.
+`run` generates all numerical outputs, reports, plots and PyMOL input files.
+`render` runs PyMOL and refreshes the report/gallery. To rebuild only the viewing
+files or report, use `views` or `report` with the same config.
 
-Scenes are `assembly`, `monomer`, `RSA` and, for tetramers, `interface`.
-`APR_01`, `APR_02`, etc. are local to the current protein. Cofactors are dark
-grey, whereas APR colours identify windows. Interface red denotes SASA loss,
-not a newly predicted APR. The original structure's occupancy/B values remain
-intact; RSA is stored only in a display copy.
+A nonempty analysis output is not silently mixed with a new run. Change
+`output_dir` for a new analysis, or explicitly use `run --overwrite` to replace
+an output directory marked as belonging to this tool. Keep input files outside
+the output directory. `run_manifest.json` records input and code hashes, package
+versions, completion state and unavailable-test counts.
 
-## Interpretation safeguards
+## Starting a different protein project
 
-The structure-average table has complete quality coverage for 19 calls. TDH3
-1–6 is partial because canonical position 1 is not eligible in all four chains.
-Separately, standardized-RSA tests involving W313 in human or W311 in yeast
-cannot be evaluated with the retained minimum-five-per-amino-acid rule. These
-are different reasons for missing statistics. Both are recorded explicitly.
+1. Copy `examples/new_protein.json` to a new study directory.
+2. Provide the exact canonical/reference FASTA and original prediction FASTA
+   or amyloscope config. Set `protein` to the actual reference FASTA ID.
+3. Supply a consolidated APR TSV with Protein/Start/End/Region columns, or
+   explicitly map other names in `apr.columns`. Class, Tools, Locus and the
+   complete original row are preserved. Coordinates must be declared.
+4. Supply validated structural tables and coordinates, **or** measure a fresh
+   homogeneous protein assembly with the optional backend.
+5. Select the native context and statistical design before interpreting results.
+6. Omit `alignment` for unrelated proteins. Supply a verified MSA only when
+   homologous-window comparison is scientifically appropriate.
 
-No evaluable primary window reaches BH q<0.05 under the specified nulls and
-families. The four global standardized tests are unavailable. This does not
-establish absence of aggregation propensity. Raw RSA, composition diagnostics,
-contacts, H-bonds, beta-strand overlap and interface burial remain reportable
-with their stated limits.
+The minimal example uses a monomer. For a dimer or tetramer, change
+`expected_chains` to the number of copies of the target sequence and set
+`native_context` to `assembly`. Add other structures as additional entries;
+multiple conformations of one protein are supported, but remain dependent
+observations unless the design establishes otherwise.
 
-The prediction panel lacked human TANGO data but included yeast TANGO data.
-Keep this availability difference in mind when comparing species. The model
-and experimental structures are also different evidence classes.
+To calculate tables from a new mmCIF:
 
-The previous baseline in the main GAPDH project is retained as a historical
-no-APR calculation. This dated folder is the updated APR analysis; do not read
-its results as if they were already present in the older baseline report.
+```bash
+apr-structure measure study.json --dssp /path/to/mkdssp
+apr-structure validate study.json
+apr-structure run study.json
+apr-structure render study.json
+```
+
+Use a fresh `metrics_dir` for `measure`. It writes `residues.tsv`, contacts,
+backbone H-bond proxies, DSSP strands, ligand contacts, interfaces, metadata,
+and canonical-numbered `coordinates.pdb`. `--structure ID` can select a subset.
+Without DSSP, SASA/contact calculations proceed, while DSSP annotations are
+explicitly unavailable. The assembly must already be supplied as coordinates;
+the backend does not guess a biological assembly from an asymmetric unit.
+
+## Supported scope
+
+**Table workflow:** arbitrary reference sequences and configurable column
+names; monomer and assembly metrics; experimental or predicted structures;
+multiple target chains; explicit author-to-reference display mapping.
+A single target chain in a larger complex can use `expected_chains: 1` with
+`native_context: assembly`. Supply externally computed context-aware metrics
+for such complexes. Contacts to chains outside the target table are not
+mislabelled as APRs of the target protein.
+
+**Built-in coordinate backend:** standard L-amino-acid protein monomers and
+homomers, one coordinate model, up to 25 protein chains for PDB export,
+explicitly retained small molecules with supported C/N/O/P/S element radii.
+It accepts a uniquely mappable canonical construct, including truncations;
+tags, mutations and nonstandard residues require separate curation. It rejects
+RNA/DNA polymer contexts and heterogeneous protein sequences rather than
+silently measuring the wrong assembly. Use the table adapter for these cases.
+It does not rebuild missing atoms, relax structures, protonate molecules,
+generate AlphaFold multimers, or infer covalent chemistry.
+
+## Outputs
+
+| Output | Meaning |
+|---|---|
+| `validated_aprs.tsv` | Sequence-verified native calls, confidence, tools and original source rows |
+| `apr_summary.tsv` | One structure per window; completeness, native RSA, assembly/ligand burial, contacts, H-bonds, secondary structure and within-chain Rg |
+| `chain_metrics.tsv` | Dependent-chain diagnostics; not biological replicates |
+| `null_tests.tsv`, `nulls/` | Actual null distributions, effects, p/q and reasons for unavailable tests |
+| `apr_contact_pairs.tsv` | Heavy-atom contact records involving APRs, with unique residue-pair IDs |
+| `apr_backbone_hbonds.tsv` | Backbone electrostatic proxy records involving APRs |
+| `apr_ligand_contacts.tsv` | Ligand proximity records; not chemical H-bond assignments |
+| `strand_overlap.tsv` | APR–DSSP-strand overlap and topological edge candidates by context |
+| `homologous_groups.tsv` | Exact projected position lists; `called_here` distinguishes predictions from projections |
+| `homologous_group_metrics.tsv` | Measurements of those exact projected lists, without inherited native-window p-values |
+| `pymol/` | JSON/PML and command examples per structure; PSE/PNG after rendering |
+| `REPORT.md`, `GALLERY.html` | Data-derived results and figures |
+
+See `docs/INPUTS.md` for the table contract, `docs/METHODS.md` for scientific
+definitions and `docs/PYMOL.md` for viewing commands.
+
+## GAPDH example
+
+The companion `GAPDH_APR_analysis_2026-11-20` study contains the real 20 supplied
+amyloscope APRs and frozen structure inputs. `examples/gapdh.json` shows its
+configuration; it expects the companion study's `inputs/` directory and is not
+a replacement for those data files. No GAPDH identity or interval is built into
+the package's analysis routines.
+
+The new APR results are separate from the older no-APR baseline. Human GAPDH
+and TDH3 use experimental tetramers; TDH1/TDH2 use predicted monomers. Do not
+compare these as if all four were experimental tetramers.
+
+## Development checks
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+Coordinate tests are skipped if optional measurement dependencies are absent.
+Tests cover bad sequence/numbering rejection, exact-shift resolution, missing
+data, composition sampling, chain dependence, noncontiguous MSA projections,
+analytic SASA geometries and a synthetic non-GAPDH dimer with a GOL ligand.
+Synthetic test windows are not included in the biological GAPDH results.
+
