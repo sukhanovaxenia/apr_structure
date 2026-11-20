@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "name": "GAPDH supplied consensus APRs",
+  "reference_fasta": "inputs/reference.fasta",
+  "alignment": "inputs/alignment.fasta",
+  "output_dir": "results",
+  "apr": {
+    "regions": "inputs/consensus_regions.tsv",
+    "prediction_config": "inputs/amyloscope_config.yaml",
+    "coordinates": "1-inclusive",
+    "classes": [
+      "moderate",
+      "strong",
+      "unanimous"
+    ]
+  },
+  "structures": [
+    {
+      "id": "human_1U8F",
+      "protein": "human_GAPDH",
+      "source": "experimental",
+      "expected_chains": 4,
+      "metrics_dir": "inputs/structures/human_1U8F",
+      "coordinates": "inputs/structures/human_1U8F/coordinates.pdb",
+      "coordinate_numbering": "canonical",
+      "mmcif": "inputs/structures/human_1U8F/source.cif",
+      "assembly_description": "PDB biological assembly 1; homotetramer",
+      "ligand_context_available": true,
+      "keep_ligands": [
+        "NAD"
+      ],
+      "view": {
+        "chain": "A",
+        "width": 1600,
+        "height": 1100
+      }
+    },
+    {
+      "id": "yeast_3PYM",
+      "protein": "yeast_TDH3",
+      "source": "experimental",
+      "expected_chains": 4,
+      "metrics_dir": "inputs/structures/yeast_3PYM",
+      "coordinates": "inputs/structures/yeast_3PYM/coordinates.pdb",
+      "coordinate_numbering": "canonical",
+      "mmcif": "inputs/structures/yeast_3PYM/source.cif",
+      "assembly_description": "PDB biological assembly 1; homotetramer",
+      "ligand_context_available": true,
+      "keep_ligands": [
+        "NAD"
+      ],
+      "view": {
+        "chain": "A",
+        "width": 1600,
+        "height": 1100
+      }
+    },
+    {
+      "id": "TDH1_AF",
+      "protein": "yeast_TDH1",
+      "source": "alphafold",
+      "expected_chains": 1,
+      "metrics_dir": "inputs/structures/TDH1_AF",
+      "coordinates": "inputs/structures/TDH1_AF/coordinates.pdb",
+      "coordinate_numbering": "canonical",
+      "mmcif": "inputs/structures/TDH1_AF/source.cif",
+      "assembly_description": "AlphaFold monomer; no biological tetramer model",
+      "ligand_context_available": false,
+      "keep_ligands": [],
+      "view": {
+        "chain": "A",
+        "width": 1600,
+        "height": 1100
+      }
+    },
+    {
+      "id": "TDH2_AF",
+      "protein": "yeast_TDH2",
+      "source": "alphafold",
+      "expected_chains": 1,
+      "metrics_dir": "inputs/structures/TDH2_AF",
+      "coordinates": "inputs/structures/TDH2_AF/coordinates.pdb",
+      "coordinate_numbering": "canonical",
+      "mmcif": "inputs/structures/TDH2_AF/source.cif",
+      "assembly_description": "AlphaFold monomer; no biological tetramer model",
+      "ligand_context_available": false,
+      "keep_ligands": [],
+      "view": {
+        "chain": "A",
+        "width": 1600,
+        "height": 1100
+      }
+    }
+  ],
+  "statistics": {
+    "seed": 20261120,
+    "composition_draws": 10000,
+    "minimum_type_count": 5,
+    "primary": "AA_standardized_RSA",
+    "fdr": "BH separate experimental/predicted and global/window families"
+  },
+  "grouping": {
+    "minimum_overlap": 0.5,
+    "span": "union"
+  },
+  "quality": {
+    "minimum_occupancy": 0.95,
+    "minimum_plddt": 70
+  },
+  "sasa": {
+    "probe_radius": 1.4,
+    "sr_points": 2000,
+    "lr_slices": 100
+  },
+  "contacts": {
+    "cutoff_angstrom": 5.0,
+    "exclude_same_chain_sequence_separation_le": 2
+  },
+  "interpretation_notes": [
+    "Human TANGO predictions were absent from the source predictor panel; yeast TDH1/TDH2/TDH3 had TANGO. Check availability and a common-predictor sensitivity analysis before comparing species.",
+    "The TDH1/TDH2 inputs are AlphaFold monomers. No experimental tetramer protection is inferred for those proteins."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "pymol_version": "3.1.6.1",
+  "coordinates": "observed atoms only; mapping verified before view generation",
+  "apr_calls": 6,
+  "source": "alphafold",
+  "rendered": true,
+  "configuration_sha256": "d728c5f2859f476ddb401c1460c63942bb3264f2ac04a92127c008c630cbd6a1",
+  "render_token": "ea28da9a-fa4a-4f64-8c6c-eb5e15998120",
+  "RSA_display": "q modified only in rsa_display; original structure occupancy/B retained",
+  "interface_display": "red for delta SASA >= 5 A^2; not an APR prediction"
+}

@@ -1,0 +1,131 @@
+{
+  "structure": "TDH1_AF",
+  "source": "alphafold",
+  "raw_sha256": "81128a17b89091451907c81eba0f9a0e3a4e05dbf5e8366dfae844e975015f00",
+  "sequence_sha256": "45d09425d29b885ca1c926055be4e762a20d6077b639051e066fe6c4a71f2d18",
+  "chains": {
+    "A": "A"
+  },
+  "n_residues": 332,
+  "eligible_residues": 332,
+  "n_atoms": 2516,
+  "ligands": [],
+  "missing_positions": {
+    "A": []
+  },
+  "assembly_operations": null,
+  "retained_ligands": [],
+  "dssp": {
+    "mono_A": {
+      "command": [
+        "/Users/kseniasuhanova/Documents/Codex/2026-11-18/referenced-chatgpt-conversation-this-is-an/work/dssp-env/bin/mkdssp",
+        "--output-format=dssp",
+        "/Users/kseniasuhanova/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents_icloud/Lab_amyloids/Projects/GAPDH/results/TDH1_AF/mono_A_dssp_input.pdb",
+        "/Users/kseniasuhanova/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents_icloud/Lab_amyloids/Projects/GAPDH/results/TDH1_AF/mono_A.dssp"
+      ],
+      "returncode": 0,
+      "stderr": "parse error at line 1: This file does not seem to be an mmCIF file\nDropped unsupported records: TER\n",
+      "stdout": "",
+      "status": "computed",
+      "residues": 332,
+      "backbone_coverage": 1.0
+    }
+  },
+  "parameters": {
+    "schema_version": 1,
+    "proteins": {
+      "human_GAPDH": "P04406",
+      "yeast_TDH1": "P00360",
+      "yeast_TDH2": "P00358",
+      "yeast_TDH3": "P00359"
+    },
+    "structures": [
+      {
+        "id": "human_1U8F",
+        "protein": "human_GAPDH",
+        "source": "experimental",
+        "pdb": "1U8F",
+        "file": "data/raw/1U8F-assembly1.cif",
+        "expected_chains": 4,
+        "role": "primary"
+      },
+      {
+        "id": "yeast_3PYM",
+        "protein": "yeast_TDH3",
+        "source": "experimental",
+        "pdb": "3PYM",
+        "file": "data/raw/3PYM-assembly1.cif",
+        "expected_chains": 4,
+        "role": "primary"
+      },
+      {
+        "id": "human_6YND",
+        "protein": "human_GAPDH",
+        "source": "experimental",
+        "pdb": "6YND",
+        "file": "data/raw/6YND-assembly1.cif",
+        "expected_chains": 4,
+        "role": "sensitivity",
+        "excluded_reason": "Oxidized CSU at catalytic Cys152; separate chemical-state study required"
+      },
+      {
+        "id": "yeast_4IQ8",
+        "protein": "yeast_TDH3",
+        "source": "experimental",
+        "pdb": "4IQ8",
+        "file": "data/raw/4IQ8-assembly1.cif",
+        "expected_chains": 4,
+        "role": "sensitivity",
+        "excluded_reason": "N-terminal MGHHHHHH expression tag; separate curated construct mapping required"
+      },
+      {
+        "id": "TDH1_AF",
+        "protein": "yeast_TDH1",
+        "source": "alphafold",
+        "file": "data/raw/P00360-AF.cif",
+        "expected_chains": 1,
+        "role": "predicted_monomer"
+      },
+      {
+        "id": "TDH2_AF",
+        "protein": "yeast_TDH2",
+        "source": "alphafold",
+        "file": "data/raw/P00358-AF.cif",
+        "expected_chains": 1,
+        "role": "predicted_monomer"
+      }
+    ],
+    "sasa": {
+      "probe_radius": 1.4,
+      "sr_points": 2000,
+      "lr_slices": 100,
+      "protein_radii": "FreeSASA default ProtOr",
+      "ligand_radii": "Bondi element radii: C=1.70 N=1.55 O=1.52 P=1.80 S=1.80",
+      "keep_ligands": [
+        "NAD"
+      ],
+      "sr_engine": "independent Fibonacci sphere implementation; FreeSASA SR failed isolated-sphere control"
+    },
+    "quality": {
+      "minimum_occupancy": 0.95,
+      "minimum_plddt": 70,
+      "apr_minimum_coverage": 1.0
+    },
+    "contacts": {
+      "cutoff_angstrom": 5.0,
+      "exclude_same_chain_sequence_separation_le": 2
+    },
+    "statistics": {
+      "seed": 20261118,
+      "composition_draws": 10000,
+      "minimum_type_count": 5,
+      "primary_metric": "tet_protein_rsa_lr",
+      "primary_null": "exact_valid_circular_shifts",
+      "fdr": "BH on primary chain-averaged tests, separate experimental/predicted and global/exploratory-window families"
+    },
+    "apr_table": "inputs/apr/validated_aprs.tsv"
+  },
+  "status": "computed",
+  "time_utc": "2026-11-18T13:23:04.551216+00:00",
+  "apr_status": "not_analyzed_here"
+}

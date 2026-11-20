@@ -1,0 +1,9 @@
+Processing ./outputs/apr-structure
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: apr-structure
+  Building wheel for apr-structure (pyproject.toml): started
+  Building wheel for apr-structure (pyproject.toml): finished with status 'done'
+  Created wheel for apr-structure: filename=apr_structure-0.1.0-py3-none-any.whl size=36518 sha256=69e688c9d2bbe357aecb3fef154f75b30c216098a00fb494de9359f674403998
+  Stored in directory: /private/var/folders/6n/td3n4kks3q7fn_ywldm1jpjc0000gn/T/pip-ephem-wheel-cache-zlnxfx8o/wheels/49/bd/53/66abfa71eaf681e432d471ddd94523b0ce9f704450f1b6a4be
+Successfully built apr-structure

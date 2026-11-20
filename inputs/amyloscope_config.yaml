@@ -1,0 +1,157 @@
+name: Full GAPDH panel
+output_dir: amyloscope_runlast/amyloscope_out
+hypothesis: >
+  PRIMARY FULL PANEL HYPOTHESIS (proposed 20 November 2026; not an outcome or
+  formal preregistration). In canonical human somatic GAPDH (P04406) and
+  Saccharomyces cerevisiae TDH1 (P00360), TDH2 (P00358), and TDH3 (P00359),
+  consensus aggregation prone residues are hypothesized to be enriched within
+  the sequence matched Pfam PF00044 NAD binding module, category
+  nad_binding_module, relative to placements of nonoverlapping APR windows of
+  the same lengths within each protein. H0 is no preferential overlap with
+  that predefined module; H1 is greater overlap. The proposed mechanism is
+  that sequences contributing to the native cofactor binding fold may also
+  carry latent aggregation propensity. This is a testable proposal motivated
+  by cofactor dependent GAPDH stability, not an established localization of
+  GAPDH APRs. The interval is precisely the PF00044 sequence match, not the
+  entire three dimensional NAD binding domain, a ligand contact map, an
+  experimentally validated amyloid core, or an RNA binding annotation. NAD
+  contact sites, the PF02800 catalytic domain, substrate contact sites and the
+  catalytic cysteine are secondary/exploratory annotations. No new APR
+  boundaries have been used to define any annotation. Positive domain
+  enrichment alone would not demonstrate NAD shielding, tetramer dissociation,
+  exposed beta edges, aggregation after oxidation, or amyloid formation; these
+  require separate structure aware and experimental tests. NAD removal does
+  not necessarily dissociate GAPDH. The four homologues, including three yeast
+  paralogues, are not four independent biological replicates. Interpret the
+  pooled result as a conditional positional test for this fixed panel. If APR
+  outcomes have already been examined, treat this hypothesis as exploratory
+  rather than preregistered.
+primary_domain_category: nad_binding_module
+
+proteins:
+  - id: human_GAPDH
+    length: 335
+    sequence: MGKVKVGVNGFGRIGRLVTRAAFNSGKVDIVAINDPFIDLNYMVYMFQYDSTHGKFHGTVKAENGKLVINGNPITIFQERDPSKIKWGDAGAEYVVESTGVFTTMEKAGAHLQGGAKRVIISAPSADAPMFVMGVNHEKYDNSLKIISNASCTTNCLAPLAKVIHDNFGIVEGLMTTVHAITATQKTVDGPSGKLWRDGRGALQNIIPASTGAAKAVGKVIPELNGKLTGMAFRVPTANVSVVDLTCRLEKPAKYDDIKKVVKQASEGPLKGILGYTEHQVVSSDFNSDTHSSTFDAGAGIALNDHFVKLISWYDNEFGYSNRVVDLMAHMASKE
+    domains:
+      - {name: "PF00044 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain", start: 4, stop: 104, category: nad_binding_module}
+      - {name: "UniProt NAD binding site 13-14", start: 13, stop: 14, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 35-35", start: 35, stop: 35, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 80-80", start: 80, stop: 80, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 122-122", start: 122, stop: 122, category: nad_contact_site}
+      - {name: "UniProt G3P binding site 151-153", start: 151, stop: 153, category: substrate_contact_site}
+      - {name: "PF02800 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain", start: 151, stop: 316, category: catalytic_domain}
+      - {name: "Catalytic nucleophile 152-152", start: 152, stop: 152, category: active_site}
+      - {name: "UniProt G3P binding site 182-182", start: 182, stop: 182, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 211-212", start: 211, stop: 212, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 234-234", start: 234, stop: 234, category: substrate_contact_site}
+      - {name: "UniProt NAD binding site 316-316", start: 316, stop: 316, category: nad_contact_site}
+  - id: yeast_TDH1
+    length: 332
+    sequence: MIRIAINGFGRIGRLVLRLALQRKDIEVVAVNDPFISNDYAAYMVKYDSTHGRYKGTVSHDDKHIIIDGVKIATYQERDPANLPWGSLKIDVAVDSTGVFKELDTAQKHIDAGAKKVVITAPSSSAPMFVVGVNHTKYTPDKKIVSNASCTTNCLAPLAKVINDAFGIEEGLMTTVHSMTATQKTVDGPSHKDWRGGRTASGNIIPSSTGAAKAVGKVLPELQGKLTGMAFRVPTVDVSVVDLTVKLEKEATYDQIKKAVKAAAEGPMKGVLGYTEDAVVSSDFLGDTHASIFDASAGIQLSPKFVKLISWYDNEYGYSARVVDLIEYVAKA
+    domains:
+      - {name: "PF00044 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain", start: 2, stop: 102, category: nad_binding_module}
+      - {name: "UniProt NAD binding site 11-11", start: 11, stop: 11, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 12-12", start: 12, stop: 12, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 33-33", start: 33, stop: 33, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 120-120", start: 120, stop: 120, category: nad_contact_site}
+      - {name: "UniProt G3P binding site 149-151", start: 149, stop: 151, category: substrate_contact_site}
+      - {name: "PF02800 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain", start: 149, stop: 314, category: catalytic_domain}
+      - {name: "Catalytic nucleophile 150-150", start: 150, stop: 150, category: active_site}
+      - {name: "UniProt G3P binding site 180-180", start: 180, stop: 180, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 209-210", start: 209, stop: 210, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 232-232", start: 232, stop: 232, category: substrate_contact_site}
+      - {name: "UniProt NAD binding site 314-314", start: 314, stop: 314, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 318-318", start: 318, stop: 318, category: nad_contact_site}
+  - id: yeast_TDH2
+    length: 332
+    sequence: MVRVAINGFGRIGRLVMRIALQRKNVEVVALNDPFISNDYSAYMFKYDSTHGRYAGEVSHDDKHIIVDGHKIATFQERDPANLPWASLNIDIAIDSTGVFKELDTAQKHIDAGAKKVVITAPSSTAPMFVMGVNEEKYTSDLKIVSNASCTTNCLAPLAKVINDAFGIEEGLMTTVHSMTATQKTVDGPSHKDWRGGRTASGNIIPSSTGAAKAVGKVLPELQGKLTGMAFRVPTVDVSVVDLTVKLNKETTYDEIKKVVKAAAEGKLKGVLGYTEDAVVSSDFLGDSNSSIFDAAAGIQLSPKFVKLVSWYDNEYGYSTRVVDLVEHVAKA
+    domains:
+      - {name: "PF00044 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain", start: 2, stop: 102, category: nad_binding_module}
+      - {name: "UniProt NAD binding site 11-11", start: 11, stop: 11, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 12-12", start: 12, stop: 12, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 33-33", start: 33, stop: 33, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 120-120", start: 120, stop: 120, category: nad_contact_site}
+      - {name: "UniProt G3P binding site 149-151", start: 149, stop: 151, category: substrate_contact_site}
+      - {name: "PF02800 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain", start: 149, stop: 314, category: catalytic_domain}
+      - {name: "Catalytic nucleophile 150-150", start: 150, stop: 150, category: active_site}
+      - {name: "UniProt G3P binding site 180-180", start: 180, stop: 180, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 209-210", start: 209, stop: 210, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 232-232", start: 232, stop: 232, category: substrate_contact_site}
+      - {name: "UniProt NAD binding site 314-314", start: 314, stop: 314, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 318-318", start: 318, stop: 318, category: nad_contact_site}
+  - id: yeast_TDH3
+    length: 332
+    sequence: MVRVAINGFGRIGRLVMRIALSRPNVEVVALNDPFITNDYAAYMFKYDSTHGRYAGEVSHDDKHIIVDGKKIATYQERDPANLPWGSSNVDIAIDSTGVFKELDTAQKHIDAGAKKVVITAPSSTAPMFVMGVNEEKYTSDLKIVSNASCTTNCLAPLAKVINDAFGIEEGLMTTVHSLTATQKTVDGPSHKDWRGGRTASGNIIPSSTGAAKAVGKVLPELQGKLTGMAFRVPTVDVSVVDLTVKLNKETTYDEIKKVVKAAAEGKLKGVLGYTEDAVVSSDFLGDSHSSIFDASAGIQLSPKFVKLVSWYDNEYGYSTRVVDLVEHVAKA
+    domains:
+      - {name: "PF00044 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain", start: 2, stop: 102, category: nad_binding_module}
+      - {name: "UniProt NAD binding site 11-11", start: 11, stop: 11, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 12-12", start: 12, stop: 12, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 33-33", start: 33, stop: 33, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 120-120", start: 120, stop: 120, category: nad_contact_site}
+      - {name: "UniProt G3P binding site 149-151", start: 149, stop: 151, category: substrate_contact_site}
+      - {name: "PF02800 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain", start: 149, stop: 314, category: catalytic_domain}
+      - {name: "Catalytic nucleophile 150-150", start: 150, stop: 150, category: active_site}
+      - {name: "UniProt G3P binding site 180-180", start: 180, stop: 180, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 209-210", start: 209, stop: 210, category: substrate_contact_site}
+      - {name: "UniProt G3P binding site 232-232", start: 232, stop: 232, category: substrate_contact_site}
+      - {name: "UniProt NAD binding site 314-314", start: 314, stop: 314, category: nad_contact_site}
+      - {name: "UniProt NAD binding site 318-318", start: 318, stop: 318, category: nad_contact_site}
+
+tools:
+  - name: aggreprot
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/aggreprot/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: aggrescan
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/aggrescan/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: foldamyloid
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/foldamyloid/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: appnn
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/appnn/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: archcandy
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/archcandy/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: crossbeta
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/crossbeta/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: pasta2
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/pasta/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: path
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/path/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: tango
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/tango/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: amylogram
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/amylogram/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+  - name: amylodeep
+    adapter: aggressor
+    path: amyloscope_runlast/tracks/amylodeep/{protein}.csv
+    detection: {method: flag, column: APR, flag_true_values: [true]}
+
+consensus:
+  tiers:
+    - {name: unanimous, min_fraction: 1.0, color: "#B2182B"}
+    - {name: strong, min_fraction: 0.75, color: "#2166AC"}
+    - {name: moderate, min_fraction: 0.5, color: "#FDAE61"}
+  min_region_length: 5
+  coverage_fraction: 0.5
+  denominator: available
+
+viz:
+  language: en
+  detailed: true

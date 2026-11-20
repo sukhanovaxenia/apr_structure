@@ -1,0 +1,5 @@
+selection	apr_id	start	end	sequence	confidence	color
+APR_01	yeast_TDH3_1_6	1	6	MVRVAI	moderate	tv_orange
+APR_02	yeast_TDH3_128_132	128	132	MFVMG	moderate	magenta
+APR_03	yeast_TDH3_238_245	238	245	VSVVDLTV	moderate	cyan
+APR_04	yeast_TDH3_306_313	306	313	VKLVSWYD	moderate	yellow

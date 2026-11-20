@@ -1,0 +1,202 @@
+[
+  {
+    "original_project_path": "data/processed/canonical.fasta",
+    "snapshot": "inputs/reference.fasta",
+    "sha256": "d7543d6c5f94c939e4de58652c64ee27d84b42024937dc6eda13989725ae70f5"
+  },
+  {
+    "original_project_path": "data/processed/canonical.mafft.fasta",
+    "snapshot": "inputs/alignment.fasta",
+    "sha256": "2d5d70347a3af71b91223a777e5cf77aad986cb806c87576bfa633446e981691"
+  },
+  {
+    "original_project_path": "amyloscope_runlast/amyloscope_out/consensus_regions.tsv",
+    "snapshot": "inputs/consensus_regions.tsv",
+    "sha256": "327aff1b7d010fb74a44bfa959da7cd976cebd70e81feb0e8bc1f570de241829"
+  },
+  {
+    "original_project_path": "amyloscope_runlast/config.yaml",
+    "snapshot": "inputs/amyloscope_config.yaml",
+    "sha256": "72923d30d4f8cc302c7644ac6956f951088919595a4c94c085efaf3c137a8113"
+  },
+  {
+    "original_project_path": "results/human_1U8F/residues.tsv",
+    "snapshot": "inputs/structures/human_1U8F/residues.tsv",
+    "sha256": "2f70b6a1511a2d0a57b8cd5063d343c859846276f2b0a9127b7b5ca7237abf1d"
+  },
+  {
+    "original_project_path": "results/human_1U8F/contacts.tsv",
+    "snapshot": "inputs/structures/human_1U8F/contacts.tsv",
+    "sha256": "b491848384a11d6216f4dcf942617e7d969dcb40ccb2a439c4cbd1e4eeb8fb07"
+  },
+  {
+    "original_project_path": "results/human_1U8F/strands.tsv",
+    "snapshot": "inputs/structures/human_1U8F/strands.tsv",
+    "sha256": "6b78496ed42cd1069344c45f7418768d33b4231bdea4e1857a01dfb4098186a4"
+  },
+  {
+    "original_project_path": "results/human_1U8F/backbone_hbonds.tsv",
+    "snapshot": "inputs/structures/human_1U8F/backbone_hbonds.tsv",
+    "sha256": "2823646513e793d62192553ba8b4b1651f7e7be77b26fccbd2264a5c11604c8f"
+  },
+  {
+    "original_project_path": "results/human_1U8F/ligand_contacts.tsv",
+    "snapshot": "inputs/structures/human_1U8F/ligand_contacts.tsv",
+    "sha256": "ddb5dfb833ea0eb66f8de8b5237fd5b722db006da8aa12bb37d84865791f8c3b"
+  },
+  {
+    "original_project_path": "results/human_1U8F/status.json",
+    "snapshot": "inputs/structures/human_1U8F/status.json",
+    "sha256": "fa26034b39c42d661d5695db6f8ccc389b8cefddc410804bb5c52362275ced7e"
+  },
+  {
+    "original_project_path": "results/human_1U8F/summary.tsv",
+    "snapshot": "inputs/structures/human_1U8F/summary.tsv",
+    "sha256": "c88e567261005902161465f50c4625a075141db5ebeb3390eeeb8049490e1272"
+  },
+  {
+    "original_project_path": "results/human_1U8F/tet_NAD.pdb",
+    "snapshot": "inputs/structures/human_1U8F/coordinates.pdb",
+    "sha256": "b03fe4bf338fa0b531572e1a7163c4e040764d78a18862cbcd1f46d45a55a706"
+  },
+  {
+    "original_project_path": "data/raw/1U8F-assembly1.cif",
+    "snapshot": "inputs/structures/human_1U8F/source.cif",
+    "sha256": "e4f2545d12b84df91ce8679e77c029caf1e00b09b09617c9ac2454dba2b8229b"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/residues.tsv",
+    "snapshot": "inputs/structures/yeast_3PYM/residues.tsv",
+    "sha256": "624e0f6ffe8dcd11c1c1b0020984a8138463988c385c5350d1c17e18214c3e06"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/contacts.tsv",
+    "snapshot": "inputs/structures/yeast_3PYM/contacts.tsv",
+    "sha256": "05e554478c8081bcbfab609ff0a3e81e9393b8fa9704a572be92b4a6ac87b20d"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/strands.tsv",
+    "snapshot": "inputs/structures/yeast_3PYM/strands.tsv",
+    "sha256": "55212513c10395e0cd6351de83024257bd04aa0192a4d4a2b2d8bc540bd7b09d"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/backbone_hbonds.tsv",
+    "snapshot": "inputs/structures/yeast_3PYM/backbone_hbonds.tsv",
+    "sha256": "cf514295c9e42ba0023ac36ffa7c945d915d09bdd9180163e4338531d00c1d30"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/ligand_contacts.tsv",
+    "snapshot": "inputs/structures/yeast_3PYM/ligand_contacts.tsv",
+    "sha256": "263c6bb37c9bde7e2d03e48a25ee6ec64fd22bf192e156724ab9755a7f5d1d95"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/status.json",
+    "snapshot": "inputs/structures/yeast_3PYM/status.json",
+    "sha256": "204f41eda6408b03f8072a376eef980e397d3ab8b09c044c3010a485112c6790"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/summary.tsv",
+    "snapshot": "inputs/structures/yeast_3PYM/summary.tsv",
+    "sha256": "ee2482d6187d0ece59bfe6616cde4c03a062eaeb93118ea6a320efb0e3a51e60"
+  },
+  {
+    "original_project_path": "results/yeast_3PYM/tet_NAD.pdb",
+    "snapshot": "inputs/structures/yeast_3PYM/coordinates.pdb",
+    "sha256": "58f3dfd1e16352aa02248c492a61aa464d79eb105a50425236369f1b8027a177"
+  },
+  {
+    "original_project_path": "data/raw/3PYM-assembly1.cif",
+    "snapshot": "inputs/structures/yeast_3PYM/source.cif",
+    "sha256": "f4f185d491cc3649ce852b86b581391a26b9b8c449a9c8ede925065f9b104d1c"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/residues.tsv",
+    "snapshot": "inputs/structures/TDH1_AF/residues.tsv",
+    "sha256": "d9ba52414dd14559570e5bb4c9b0b9d5cc11928e210edb38f810246840cc6ba7"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/contacts.tsv",
+    "snapshot": "inputs/structures/TDH1_AF/contacts.tsv",
+    "sha256": "b5ff1147ca7258b96b5b1dfae6a342650184593fc0aa7951cea2aaa162a4ef19"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/strands.tsv",
+    "snapshot": "inputs/structures/TDH1_AF/strands.tsv",
+    "sha256": "768ecf5f2c78c069e528ffd5b2ccc3c4409053ae8de21f03cbb030b605d1e2bd"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/backbone_hbonds.tsv",
+    "snapshot": "inputs/structures/TDH1_AF/backbone_hbonds.tsv",
+    "sha256": "6f9dcd764d19d430ae53b9c18773ad563df93449864b9c1bada4121f6d8ec571"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/ligand_contacts.tsv",
+    "snapshot": "inputs/structures/TDH1_AF/ligand_contacts.tsv",
+    "sha256": "9ba258d48e48cd124317b49af3793e0eab04ba441ee2cdaf506ed4f330faa1ec"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/status.json",
+    "snapshot": "inputs/structures/TDH1_AF/status.json",
+    "sha256": "c21046155e462c7b82261667684701087201c1fb20f6bd45a290104aaf8760a8"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/summary.tsv",
+    "snapshot": "inputs/structures/TDH1_AF/summary.tsv",
+    "sha256": "feb08983922fb7ceed2b332fe8a054daeb04efb439f338ebee3e1c28ced64ff9"
+  },
+  {
+    "original_project_path": "results/TDH1_AF/mono_A_NAD.pdb",
+    "snapshot": "inputs/structures/TDH1_AF/coordinates.pdb",
+    "sha256": "9229272b983d374d5653754ea3ee660528eaf1c25f3fd18cb5028c884b0b0a6c"
+  },
+  {
+    "original_project_path": "data/raw/P00360-AF.cif",
+    "snapshot": "inputs/structures/TDH1_AF/source.cif",
+    "sha256": "81128a17b89091451907c81eba0f9a0e3a4e05dbf5e8366dfae844e975015f00"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/residues.tsv",
+    "snapshot": "inputs/structures/TDH2_AF/residues.tsv",
+    "sha256": "340b856c109224088e3eef2d1fef1449a8e065174b186eced6b135d1c49d16ee"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/contacts.tsv",
+    "snapshot": "inputs/structures/TDH2_AF/contacts.tsv",
+    "sha256": "52b8c823a1a674a0796de881e44916653c8534d518be6c2220828acf73c8852c"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/strands.tsv",
+    "snapshot": "inputs/structures/TDH2_AF/strands.tsv",
+    "sha256": "816dac50e919db05fd16cd1a624dfe5b72325be9ae6d82b0dcdcc0146e15a087"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/backbone_hbonds.tsv",
+    "snapshot": "inputs/structures/TDH2_AF/backbone_hbonds.tsv",
+    "sha256": "30cbf258b788015a3fcf7e7d97517b0bb0a80e94b6c9e9f0cbb279c5f86cc221"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/ligand_contacts.tsv",
+    "snapshot": "inputs/structures/TDH2_AF/ligand_contacts.tsv",
+    "sha256": "9ba258d48e48cd124317b49af3793e0eab04ba441ee2cdaf506ed4f330faa1ec"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/status.json",
+    "snapshot": "inputs/structures/TDH2_AF/status.json",
+    "sha256": "4d132927eaeb82bbd56933f1469a24ba5a33b406893f0a42ed2c69544a522a0a"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/summary.tsv",
+    "snapshot": "inputs/structures/TDH2_AF/summary.tsv",
+    "sha256": "d76a5bc3c5428b96e3114379dc14546dad8bbae943e2278fe50154885955ff01"
+  },
+  {
+    "original_project_path": "results/TDH2_AF/mono_A_NAD.pdb",
+    "snapshot": "inputs/structures/TDH2_AF/coordinates.pdb",
+    "sha256": "aab09684b507987af771ee86553a26e09558d776f94dec6088fe78be2016abe9"
+  },
+  {
+    "original_project_path": "data/raw/P00358-AF.cif",
+    "snapshot": "inputs/structures/TDH2_AF/source.cif",
+    "sha256": "d07813f4e8a5a9226cf83cf51e8786eea91a3aba35327c41abaea7ff06082078"
+  }
+]

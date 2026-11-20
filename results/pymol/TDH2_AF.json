@@ -1,0 +1,3045 @@
+{
+  "structure": "TDH2_AF",
+  "protein": "yeast_TDH2",
+  "source": "alphafold",
+  "assembly_description": "AlphaFold monomer; no biological tetramer model",
+  "coordinate_file": "../../inputs/structures/TDH2_AF/coordinates.pdb",
+  "expected_chains": 1,
+  "has_assembly_context": false,
+  "ligand_names": [],
+  "residues": [
+    {
+      "chain": "A",
+      "position": 1,
+      "display_chain": "A",
+      "display_resi": "1",
+      "rsa": 0.6621444091638397,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 2,
+      "display_chain": "A",
+      "display_resi": "2",
+      "rsa": 0.0636072106829699,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 3,
+      "display_chain": "A",
+      "display_resi": "3",
+      "rsa": 0.2383937873032637,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 4,
+      "display_chain": "A",
+      "display_resi": "4",
+      "rsa": 4.049744411602266e-05,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 5,
+      "display_chain": "A",
+      "display_resi": "5",
+      "rsa": 0.0013562662812151,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 6,
+      "display_chain": "A",
+      "display_resi": "6",
+      "rsa": 0.0008988294232916,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 7,
+      "display_chain": "A",
+      "display_resi": "7",
+      "rsa": 0.0101481832508301,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 8,
+      "display_chain": "A",
+      "display_resi": "8",
+      "rsa": 0.0677810179169705,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 9,
+      "display_chain": "A",
+      "display_resi": "9",
+      "rsa": 0.010284170948499,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 10,
+      "display_chain": "A",
+      "display_resi": "10",
+      "rsa": 0.3289390810212404,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 11,
+      "display_chain": "A",
+      "display_resi": "11",
+      "rsa": 0.2306402760562551,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 12,
+      "display_chain": "A",
+      "display_resi": "12",
+      "rsa": 0.1772891843003933,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 13,
+      "display_chain": "A",
+      "display_resi": "13",
+      "rsa": 0.0018119237005168,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 14,
+      "display_chain": "A",
+      "display_resi": "14",
+      "rsa": 0.0599729309397081,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 15,
+      "display_chain": "A",
+      "display_resi": "15",
+      "rsa": 0.004698436714333,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 16,
+      "display_chain": "A",
+      "display_resi": "16",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 17,
+      "display_chain": "A",
+      "display_resi": "17",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 18,
+      "display_chain": "A",
+      "display_resi": "18",
+      "rsa": 0.0608999952890095,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 19,
+      "display_chain": "A",
+      "display_resi": "19",
+      "rsa": 0.0411147555688797,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 20,
+      "display_chain": "A",
+      "display_resi": "20",
+      "rsa": 0.0021068027082488,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 21,
+      "display_chain": "A",
+      "display_resi": "21",
+      "rsa": 0.241733016334669,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 22,
+      "display_chain": "A",
+      "display_resi": "22",
+      "rsa": 0.5660140790011499,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 23,
+      "display_chain": "A",
+      "display_resi": "23",
+      "rsa": 0.2531828326563887,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 24,
+      "display_chain": "A",
+      "display_resi": "24",
+      "rsa": 0.8038796899770903,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 25,
+      "display_chain": "A",
+      "display_resi": "25",
+      "rsa": 0.3823127433684026,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 26,
+      "display_chain": "A",
+      "display_resi": "26",
+      "rsa": 0.0598301399240511,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 27,
+      "display_chain": "A",
+      "display_resi": "27",
+      "rsa": 0.3022068547751614,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 28,
+      "display_chain": "A",
+      "display_resi": "28",
+      "rsa": 0.0589406875539131,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 29,
+      "display_chain": "A",
+      "display_resi": "29",
+      "rsa": 0.0852075745491878,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 30,
+      "display_chain": "A",
+      "display_resi": "30",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 31,
+      "display_chain": "A",
+      "display_resi": "31",
+      "rsa": 0.0072893343465557,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 32,
+      "display_chain": "A",
+      "display_resi": "32",
+      "rsa": 0.0082172142047189,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 33,
+      "display_chain": "A",
+      "display_resi": "33",
+      "rsa": 0.0809347963908048,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 34,
+      "display_chain": "A",
+      "display_resi": "34",
+      "rsa": 0.2374769955065901,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 35,
+      "display_chain": "A",
+      "display_resi": "35",
+      "rsa": 0.626634227036163,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 36,
+      "display_chain": "A",
+      "display_resi": "36",
+      "rsa": 0.0924310238397794,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 37,
+      "display_chain": "A",
+      "display_resi": "37",
+      "rsa": 0.3757804670834039,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 38,
+      "display_chain": "A",
+      "display_resi": "38",
+      "rsa": 0.0766146915919954,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 39,
+      "display_chain": "A",
+      "display_resi": "39",
+      "rsa": 0.385368958093871,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 40,
+      "display_chain": "A",
+      "display_resi": "40",
+      "rsa": 0.3820435064081867,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 41,
+      "display_chain": "A",
+      "display_resi": "41",
+      "rsa": 0.0037542112674402,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 42,
+      "display_chain": "A",
+      "display_resi": "42",
+      "rsa": 0.0498447839426137,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 43,
+      "display_chain": "A",
+      "display_resi": "43",
+      "rsa": 0.4843817272176259,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 44,
+      "display_chain": "A",
+      "display_resi": "44",
+      "rsa": 0.2169640971437501,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 45,
+      "display_chain": "A",
+      "display_resi": "45",
+      "rsa": 0.0020745589541812,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 46,
+      "display_chain": "A",
+      "display_resi": "46",
+      "rsa": 0.1914318443208654,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 47,
+      "display_chain": "A",
+      "display_resi": "47",
+      "rsa": 0.4194311165828219,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 48,
+      "display_chain": "A",
+      "display_resi": "48",
+      "rsa": 0.077332163968765,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 49,
+      "display_chain": "A",
+      "display_resi": "49",
+      "rsa": 0.8064464796926883,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 50,
+      "display_chain": "A",
+      "display_resi": "50",
+      "rsa": 0.1663970194073572,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 51,
+      "display_chain": "A",
+      "display_resi": "51",
+      "rsa": 0.1368152872184434,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 52,
+      "display_chain": "A",
+      "display_resi": "52",
+      "rsa": 0.344832117058529,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 53,
+      "display_chain": "A",
+      "display_resi": "53",
+      "rsa": 0.6682183126725371,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 54,
+      "display_chain": "A",
+      "display_resi": "54",
+      "rsa": 0.0957012224018101,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 55,
+      "display_chain": "A",
+      "display_resi": "55",
+      "rsa": 0.8835264984370788,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 56,
+      "display_chain": "A",
+      "display_resi": "56",
+      "rsa": 0.1636783493880726,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 57,
+      "display_chain": "A",
+      "display_resi": "57",
+      "rsa": 0.6024799886669039,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 58,
+      "display_chain": "A",
+      "display_resi": "58",
+      "rsa": 0.1489590194632754,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 59,
+      "display_chain": "A",
+      "display_resi": "59",
+      "rsa": 0.3740307393435196,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 60,
+      "display_chain": "A",
+      "display_resi": "60",
+      "rsa": 0.4134921326944654,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 61,
+      "display_chain": "A",
+      "display_resi": "61",
+      "rsa": 0.2357321709668367,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 62,
+      "display_chain": "A",
+      "display_resi": "62",
+      "rsa": 0.7240702111560329,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 63,
+      "display_chain": "A",
+      "display_resi": "63",
+      "rsa": 0.6229111880082365,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 64,
+      "display_chain": "A",
+      "display_resi": "64",
+      "rsa": 0.2126928482616002,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 65,
+      "display_chain": "A",
+      "display_resi": "65",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 66,
+      "display_chain": "A",
+      "display_resi": "66",
+      "rsa": 0.1779934753474308,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 67,
+      "display_chain": "A",
+      "display_resi": "67",
+      "rsa": 0.0015430200203093,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 68,
+      "display_chain": "A",
+      "display_resi": "68",
+      "rsa": 0.3757659454141442,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 69,
+      "display_chain": "A",
+      "display_resi": "69",
+      "rsa": 0.6104259850906802,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 70,
+      "display_chain": "A",
+      "display_resi": "70",
+      "rsa": 0.5225933595873152,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 71,
+      "display_chain": "A",
+      "display_resi": "71",
+      "rsa": 0.5308687097441834,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 72,
+      "display_chain": "A",
+      "display_resi": "72",
+      "rsa": 0.001501407024949,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 73,
+      "display_chain": "A",
+      "display_resi": "73",
+      "rsa": 0.1107230080301865,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 74,
+      "display_chain": "A",
+      "display_resi": "74",
+      "rsa": 0.0794138841806261,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 75,
+      "display_chain": "A",
+      "display_resi": "75",
+      "rsa": 0.1912297429936722,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 76,
+      "display_chain": "A",
+      "display_resi": "76",
+      "rsa": 0.3760158940596319,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 77,
+      "display_chain": "A",
+      "display_resi": "77",
+      "rsa": 0.2864573784970378,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 78,
+      "display_chain": "A",
+      "display_resi": "78",
+      "rsa": 0.5889158977582863,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 79,
+      "display_chain": "A",
+      "display_resi": "79",
+      "rsa": 0.2769511256043929,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 80,
+      "display_chain": "A",
+      "display_resi": "80",
+      "rsa": 0.0047925563460335,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 81,
+      "display_chain": "A",
+      "display_resi": "81",
+      "rsa": 0.3099023876376399,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 82,
+      "display_chain": "A",
+      "display_resi": "82",
+      "rsa": 0.5066059837185835,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 83,
+      "display_chain": "A",
+      "display_resi": "83",
+      "rsa": 0.0225327502695071,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 84,
+      "display_chain": "A",
+      "display_resi": "84",
+      "rsa": 0.2826056544762273,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 85,
+      "display_chain": "A",
+      "display_resi": "85",
+      "rsa": 0.0008503958232712,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 86,
+      "display_chain": "A",
+      "display_resi": "86",
+      "rsa": 0.5089249833925785,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 87,
+      "display_chain": "A",
+      "display_resi": "87",
+      "rsa": 0.5705831170909251,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 88,
+      "display_chain": "A",
+      "display_resi": "88",
+      "rsa": 0.1995764269980246,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 89,
+      "display_chain": "A",
+      "display_resi": "89",
+      "rsa": 0.5183929074344086,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 90,
+      "display_chain": "A",
+      "display_resi": "90",
+      "rsa": 0.0063502904699859,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 91,
+      "display_chain": "A",
+      "display_resi": "91",
+      "rsa": 0.1459758539965096,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 92,
+      "display_chain": "A",
+      "display_resi": "92",
+      "rsa": 0.0122479995648723,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 93,
+      "display_chain": "A",
+      "display_resi": "93",
+      "rsa": 0.0025100866376816,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 94,
+      "display_chain": "A",
+      "display_resi": "94",
+      "rsa": 0.0044876926023593,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 95,
+      "display_chain": "A",
+      "display_resi": "95",
+      "rsa": 0.0161429285187205,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 96,
+      "display_chain": "A",
+      "display_resi": "96",
+      "rsa": 0.1105916469953409,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 97,
+      "display_chain": "A",
+      "display_resi": "97",
+      "rsa": 0.2589952580395511,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 98,
+      "display_chain": "A",
+      "display_resi": "98",
+      "rsa": 0.4760258061981929,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 99,
+      "display_chain": "A",
+      "display_resi": "99",
+      "rsa": 0.5853543993884897,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 100,
+      "display_chain": "A",
+      "display_resi": "100",
+      "rsa": 0.1410383259894807,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 101,
+      "display_chain": "A",
+      "display_resi": "101",
+      "rsa": 0.3558200787357672,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 102,
+      "display_chain": "A",
+      "display_resi": "102",
+      "rsa": 0.1484130009186108,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 103,
+      "display_chain": "A",
+      "display_resi": "103",
+      "rsa": 0.3597608277196547,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 104,
+      "display_chain": "A",
+      "display_resi": "104",
+      "rsa": 0.5653635727024817,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 105,
+      "display_chain": "A",
+      "display_resi": "105",
+      "rsa": 0.2468452063354062,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 106,
+      "display_chain": "A",
+      "display_resi": "106",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 107,
+      "display_chain": "A",
+      "display_resi": "107",
+      "rsa": 0.2895360836120199,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 108,
+      "display_chain": "A",
+      "display_resi": "108",
+      "rsa": 0.2530954114715097,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 109,
+      "display_chain": "A",
+      "display_resi": "109",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 110,
+      "display_chain": "A",
+      "display_resi": "110",
+      "rsa": 0.217663133574025,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 111,
+      "display_chain": "A",
+      "display_resi": "111",
+      "rsa": 0.5072152751440081,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 112,
+      "display_chain": "A",
+      "display_resi": "112",
+      "rsa": 0.0744064031782017,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 113,
+      "display_chain": "A",
+      "display_resi": "113",
+      "rsa": 0.2870025791514221,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 114,
+      "display_chain": "A",
+      "display_resi": "114",
+      "rsa": 0.0218035935568689,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 115,
+      "display_chain": "A",
+      "display_resi": "115",
+      "rsa": 0.5688947552698584,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 116,
+      "display_chain": "A",
+      "display_resi": "116",
+      "rsa": 0.124464004256416,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 117,
+      "display_chain": "A",
+      "display_resi": "117",
+      "rsa": 0.0015077835479946,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 118,
+      "display_chain": "A",
+      "display_resi": "118",
+      "rsa": 0.0004688134795456,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 119,
+      "display_chain": "A",
+      "display_resi": "119",
+      "rsa": 0.0113232474069429,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 120,
+      "display_chain": "A",
+      "display_resi": "120",
+      "rsa": 0.0745121978959049,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 121,
+      "display_chain": "A",
+      "display_resi": "121",
+      "rsa": 0.1676131740250137,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 122,
+      "display_chain": "A",
+      "display_resi": "122",
+      "rsa": 0.36806859040967,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 123,
+      "display_chain": "A",
+      "display_resi": "123",
+      "rsa": 0.0284143993550541,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 124,
+      "display_chain": "A",
+      "display_resi": "124",
+      "rsa": 0.5643766496382353,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 125,
+      "display_chain": "A",
+      "display_resi": "125",
+      "rsa": 0.4513740228076009,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 126,
+      "display_chain": "A",
+      "display_resi": "126",
+      "rsa": 0.0474911507231305,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 127,
+      "display_chain": "A",
+      "display_resi": "127",
+      "rsa": 0.300840772476448,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 128,
+      "display_chain": "A",
+      "display_resi": "128",
+      "rsa": 0.0672903469693161,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 129,
+      "display_chain": "A",
+      "display_resi": "129",
+      "rsa": 0.0258323450871589,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 130,
+      "display_chain": "A",
+      "display_resi": "130",
+      "rsa": 0.0001514160574018,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 131,
+      "display_chain": "A",
+      "display_resi": "131",
+      "rsa": 0.1040778141426399,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 132,
+      "display_chain": "A",
+      "display_resi": "132",
+      "rsa": 0.1834998989640479,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 133,
+      "display_chain": "A",
+      "display_resi": "133",
+      "rsa": 0.0366234855887606,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 134,
+      "display_chain": "A",
+      "display_resi": "134",
+      "rsa": 0.0317852308204437,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 135,
+      "display_chain": "A",
+      "display_resi": "135",
+      "rsa": 0.1421122700809323,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 136,
+      "display_chain": "A",
+      "display_resi": "136",
+      "rsa": 0.534046557135764,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 137,
+      "display_chain": "A",
+      "display_resi": "137",
+      "rsa": 0.4449085040876591,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 138,
+      "display_chain": "A",
+      "display_resi": "138",
+      "rsa": 0.0472201456924671,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 139,
+      "display_chain": "A",
+      "display_resi": "139",
+      "rsa": 0.4229488627025507,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 140,
+      "display_chain": "A",
+      "display_resi": "140",
+      "rsa": 0.3703722103219231,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 141,
+      "display_chain": "A",
+      "display_resi": "141",
+      "rsa": 0.5140975810573554,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 142,
+      "display_chain": "A",
+      "display_resi": "142",
+      "rsa": 0.244611764214103,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 143,
+      "display_chain": "A",
+      "display_resi": "143",
+      "rsa": 0.394529040603507,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 144,
+      "display_chain": "A",
+      "display_resi": "144",
+      "rsa": 0.0588831261191133,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 145,
+      "display_chain": "A",
+      "display_resi": "145",
+      "rsa": 0.0095187018899146,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 146,
+      "display_chain": "A",
+      "display_resi": "146",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 147,
+      "display_chain": "A",
+      "display_resi": "147",
+      "rsa": 0.0007280037973138,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 148,
+      "display_chain": "A",
+      "display_resi": "148",
+      "rsa": 1.8113407836774417e-05,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 149,
+      "display_chain": "A",
+      "display_resi": "149",
+      "rsa": 0.1224783144451571,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 150,
+      "display_chain": "A",
+      "display_resi": "150",
+      "rsa": 0.1494873874653525,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 151,
+      "display_chain": "A",
+      "display_resi": "151",
+      "rsa": 0.0382606618356693,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 152,
+      "display_chain": "A",
+      "display_resi": "152",
+      "rsa": 3.459540135425463e-05,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 153,
+      "display_chain": "A",
+      "display_resi": "153",
+      "rsa": 0.0069119442331582,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 154,
+      "display_chain": "A",
+      "display_resi": "154",
+      "rsa": 0.0004863458954435,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 155,
+      "display_chain": "A",
+      "display_resi": "155",
+      "rsa": 0.0006965016818318,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 156,
+      "display_chain": "A",
+      "display_resi": "156",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 157,
+      "display_chain": "A",
+      "display_resi": "157",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 158,
+      "display_chain": "A",
+      "display_resi": "158",
+      "rsa": 0.0004735296048638,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 159,
+      "display_chain": "A",
+      "display_resi": "159",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 160,
+      "display_chain": "A",
+      "display_resi": "160",
+      "rsa": 0.1949450595559522,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 161,
+      "display_chain": "A",
+      "display_resi": "161",
+      "rsa": 0.0219185633490406,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 162,
+      "display_chain": "A",
+      "display_resi": "162",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 163,
+      "display_chain": "A",
+      "display_resi": "163",
+      "rsa": 0.1376738724070033,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 164,
+      "display_chain": "A",
+      "display_resi": "164",
+      "rsa": 0.4047529183927014,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 165,
+      "display_chain": "A",
+      "display_resi": "165",
+      "rsa": 0.2954542917825448,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 166,
+      "display_chain": "A",
+      "display_resi": "166",
+      "rsa": 0.0473301407712193,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 167,
+      "display_chain": "A",
+      "display_resi": "167",
+      "rsa": 0.1491112756982527,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 168,
+      "display_chain": "A",
+      "display_resi": "168",
+      "rsa": 0.000231625775235,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 169,
+      "display_chain": "A",
+      "display_resi": "169",
+      "rsa": 0.34180904488113,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 170,
+      "display_chain": "A",
+      "display_resi": "170",
+      "rsa": 0.3712720571491425,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 171,
+      "display_chain": "A",
+      "display_resi": "171",
+      "rsa": 0.068985430439926,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 172,
+      "display_chain": "A",
+      "display_resi": "172",
+      "rsa": 0.5783102096157249,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 173,
+      "display_chain": "A",
+      "display_resi": "173",
+      "rsa": 0.0145728291811144,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 174,
+      "display_chain": "A",
+      "display_resi": "174",
+      "rsa": 0.1937446026777196,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 175,
+      "display_chain": "A",
+      "display_resi": "175",
+      "rsa": 0.0089578469744225,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 176,
+      "display_chain": "A",
+      "display_resi": "176",
+      "rsa": 0.3190665534449071,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 177,
+      "display_chain": "A",
+      "display_resi": "177",
+      "rsa": 0.033224858065867,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 178,
+      "display_chain": "A",
+      "display_resi": "178",
+      "rsa": 0.0018872659456538,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 179,
+      "display_chain": "A",
+      "display_resi": "179",
+      "rsa": 0.3037870298908385,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 180,
+      "display_chain": "A",
+      "display_resi": "180",
+      "rsa": 0.268708260030333,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 181,
+      "display_chain": "A",
+      "display_resi": "181",
+      "rsa": 0.7620052065434613,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 182,
+      "display_chain": "A",
+      "display_resi": "182",
+      "rsa": 0.6126981052231006,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 183,
+      "display_chain": "A",
+      "display_resi": "183",
+      "rsa": 0.1034354401783738,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 184,
+      "display_chain": "A",
+      "display_resi": "184",
+      "rsa": 0.3000964014339161,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 185,
+      "display_chain": "A",
+      "display_resi": "185",
+      "rsa": 0.7007415152841906,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 186,
+      "display_chain": "A",
+      "display_resi": "186",
+      "rsa": 0.5938963758983593,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 187,
+      "display_chain": "A",
+      "display_resi": "187",
+      "rsa": 0.4028369452398004,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 188,
+      "display_chain": "A",
+      "display_resi": "188",
+      "rsa": 0.2872526980115458,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 189,
+      "display_chain": "A",
+      "display_resi": "189",
+      "rsa": 0.6583654976102435,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 190,
+      "display_chain": "A",
+      "display_resi": "190",
+      "rsa": 0.1874246378402862,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 191,
+      "display_chain": "A",
+      "display_resi": "191",
+      "rsa": 0.7121620844020761,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 192,
+      "display_chain": "A",
+      "display_resi": "192",
+      "rsa": 0.9079968031116278,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 193,
+      "display_chain": "A",
+      "display_resi": "193",
+      "rsa": 0.2991429485710254,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 194,
+      "display_chain": "A",
+      "display_resi": "194",
+      "rsa": 0.7398035612350776,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 195,
+      "display_chain": "A",
+      "display_resi": "195",
+      "rsa": 0.5120967707871967,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 196,
+      "display_chain": "A",
+      "display_resi": "196",
+      "rsa": 0.0756758992731736,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 197,
+      "display_chain": "A",
+      "display_resi": "197",
+      "rsa": 0.0119807109001149,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 198,
+      "display_chain": "A",
+      "display_resi": "198",
+      "rsa": 0.4304888250690459,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 199,
+      "display_chain": "A",
+      "display_resi": "199",
+      "rsa": 0.2164136387008204,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 200,
+      "display_chain": "A",
+      "display_resi": "200",
+      "rsa": 0.0574444741363105,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 201,
+      "display_chain": "A",
+      "display_resi": "201",
+      "rsa": 0.483896394855536,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 202,
+      "display_chain": "A",
+      "display_resi": "202",
+      "rsa": 0.5367026776807914,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 203,
+      "display_chain": "A",
+      "display_resi": "203",
+      "rsa": 0.2437288808687107,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 204,
+      "display_chain": "A",
+      "display_resi": "204",
+      "rsa": 0.6212250780877748,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 205,
+      "display_chain": "A",
+      "display_resi": "205",
+      "rsa": 0.0290230009640322,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 206,
+      "display_chain": "A",
+      "display_resi": "206",
+      "rsa": 0.2359241363364058,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 207,
+      "display_chain": "A",
+      "display_resi": "207",
+      "rsa": 0.1694182546325788,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 208,
+      "display_chain": "A",
+      "display_resi": "208",
+      "rsa": 0.7041629830172803,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 209,
+      "display_chain": "A",
+      "display_resi": "209",
+      "rsa": 0.2001239619658527,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 210,
+      "display_chain": "A",
+      "display_resi": "210",
+      "rsa": 0.4751314047126206,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 211,
+      "display_chain": "A",
+      "display_resi": "211",
+      "rsa": 0.0452215823912353,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 212,
+      "display_chain": "A",
+      "display_resi": "212",
+      "rsa": 0.0016721739630182,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 213,
+      "display_chain": "A",
+      "display_resi": "213",
+      "rsa": 0.5690391152919144,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 214,
+      "display_chain": "A",
+      "display_resi": "214",
+      "rsa": 0.0773033957176425,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 215,
+      "display_chain": "A",
+      "display_resi": "215",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 216,
+      "display_chain": "A",
+      "display_resi": "216",
+      "rsa": 0.0408578661064918,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 217,
+      "display_chain": "A",
+      "display_resi": "217",
+      "rsa": 0.5035485788036298,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 218,
+      "display_chain": "A",
+      "display_resi": "218",
+      "rsa": 0.0021929793097189,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 219,
+      "display_chain": "A",
+      "display_resi": "219",
+      "rsa": 0.0244200950563259,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 220,
+      "display_chain": "A",
+      "display_resi": "220",
+      "rsa": 0.4910355637421499,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 221,
+      "display_chain": "A",
+      "display_resi": "221",
+      "rsa": 0.3869175177587914,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 222,
+      "display_chain": "A",
+      "display_resi": "222",
+      "rsa": 0.0043341250029452,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 223,
+      "display_chain": "A",
+      "display_resi": "223",
+      "rsa": 0.5229385890956441,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 224,
+      "display_chain": "A",
+      "display_resi": "224",
+      "rsa": 0.7252515806514149,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 225,
+      "display_chain": "A",
+      "display_resi": "225",
+      "rsa": 0.3106739694165777,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 226,
+      "display_chain": "A",
+      "display_resi": "226",
+      "rsa": 0.0343901736224022,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 227,
+      "display_chain": "A",
+      "display_resi": "227",
+      "rsa": 0.3059025986718635,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 228,
+      "display_chain": "A",
+      "display_resi": "228",
+      "rsa": 0.1851961370075063,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 229,
+      "display_chain": "A",
+      "display_resi": "229",
+      "rsa": 0.3117064778722858,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 230,
+      "display_chain": "A",
+      "display_resi": "230",
+      "rsa": 0.0318517149624422,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 231,
+      "display_chain": "A",
+      "display_resi": "231",
+      "rsa": 0.2708081537900323,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 232,
+      "display_chain": "A",
+      "display_resi": "232",
+      "rsa": 0.1840151753276689,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 233,
+      "display_chain": "A",
+      "display_resi": "233",
+      "rsa": 0.1406036107577409,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 234,
+      "display_chain": "A",
+      "display_resi": "234",
+      "rsa": 0.4199191739651039,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 235,
+      "display_chain": "A",
+      "display_resi": "235",
+      "rsa": 0.2994698321221726,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 236,
+      "display_chain": "A",
+      "display_resi": "236",
+      "rsa": 0.5087104037517567,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 237,
+      "display_chain": "A",
+      "display_resi": "237",
+      "rsa": 0.0294774472676504,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 238,
+      "display_chain": "A",
+      "display_resi": "238",
+      "rsa": 0.0176184647420465,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 239,
+      "display_chain": "A",
+      "display_resi": "239",
+      "rsa": 0.0121486620211619,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 240,
+      "display_chain": "A",
+      "display_resi": "240",
+      "rsa": 0.1129832847043662,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 241,
+      "display_chain": "A",
+      "display_resi": "241",
+      "rsa": 0.0003961968424344,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 242,
+      "display_chain": "A",
+      "display_resi": "242",
+      "rsa": 0.1793023811453136,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 243,
+      "display_chain": "A",
+      "display_resi": "243",
+      "rsa": 0.0001558946406763,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 244,
+      "display_chain": "A",
+      "display_resi": "244",
+      "rsa": 0.1750874700269398,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 245,
+      "display_chain": "A",
+      "display_resi": "245",
+      "rsa": 0.001961497303935,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 246,
+      "display_chain": "A",
+      "display_resi": "246",
+      "rsa": 0.3154148492147884,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 247,
+      "display_chain": "A",
+      "display_resi": "247",
+      "rsa": 0.0054750125831763,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 248,
+      "display_chain": "A",
+      "display_resi": "248",
+      "rsa": 0.4221425556535096,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 249,
+      "display_chain": "A",
+      "display_resi": "249",
+      "rsa": 0.4761533923575741,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 250,
+      "display_chain": "A",
+      "display_resi": "250",
+      "rsa": 0.4845371176714615,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 251,
+      "display_chain": "A",
+      "display_resi": "251",
+      "rsa": 0.050368713523451,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 252,
+      "display_chain": "A",
+      "display_resi": "252",
+      "rsa": 0.4389273559016583,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 253,
+      "display_chain": "A",
+      "display_resi": "253",
+      "rsa": 0.1346650952472864,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 254,
+      "display_chain": "A",
+      "display_resi": "254",
+      "rsa": 0.3809867597208516,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 255,
+      "display_chain": "A",
+      "display_resi": "255",
+      "rsa": 0.3229448406069473,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 256,
+      "display_chain": "A",
+      "display_resi": "256",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 257,
+      "display_chain": "A",
+      "display_resi": "257",
+      "rsa": 0.2126188549696849,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 258,
+      "display_chain": "A",
+      "display_resi": "258",
+      "rsa": 0.5440690179277093,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 259,
+      "display_chain": "A",
+      "display_resi": "259",
+      "rsa": 0.2714468645463551,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 260,
+      "display_chain": "A",
+      "display_resi": "260",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 261,
+      "display_chain": "A",
+      "display_resi": "261",
+      "rsa": 0.3483122211820202,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 262,
+      "display_chain": "A",
+      "display_resi": "262",
+      "rsa": 0.5072602116082877,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 263,
+      "display_chain": "A",
+      "display_resi": "263",
+      "rsa": 0.0555090090689144,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 264,
+      "display_chain": "A",
+      "display_resi": "264",
+      "rsa": 0.0714451868844928,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 265,
+      "display_chain": "A",
+      "display_resi": "265",
+      "rsa": 0.4961931147136111,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 266,
+      "display_chain": "A",
+      "display_resi": "266",
+      "rsa": 0.4119975927585452,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 267,
+      "display_chain": "A",
+      "display_resi": "267",
+      "rsa": 0.5995829498846991,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 268,
+      "display_chain": "A",
+      "display_resi": "268",
+      "rsa": 0.0242854216252415,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 269,
+      "display_chain": "A",
+      "display_resi": "269",
+      "rsa": 0.6874161098041965,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 270,
+      "display_chain": "A",
+      "display_resi": "270",
+      "rsa": 0.3522958756051544,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 271,
+      "display_chain": "A",
+      "display_resi": "271",
+      "rsa": 0.0992707701089557,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 272,
+      "display_chain": "A",
+      "display_resi": "272",
+      "rsa": 0.0069534389662796,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 273,
+      "display_chain": "A",
+      "display_resi": "273",
+      "rsa": 0.1248668724256078,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 274,
+      "display_chain": "A",
+      "display_resi": "274",
+      "rsa": 0.1635966928693982,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 275,
+      "display_chain": "A",
+      "display_resi": "275",
+      "rsa": 0.1153791616090137,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 276,
+      "display_chain": "A",
+      "display_resi": "276",
+      "rsa": 0.483911021473375,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 277,
+      "display_chain": "A",
+      "display_resi": "277",
+      "rsa": 0.5244195384884915,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 278,
+      "display_chain": "A",
+      "display_resi": "278",
+      "rsa": 0.8538005733876523,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 279,
+      "display_chain": "A",
+      "display_resi": "279",
+      "rsa": 0.1830551181070052,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 280,
+      "display_chain": "A",
+      "display_resi": "280",
+      "rsa": 0.4995769649641118,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 281,
+      "display_chain": "A",
+      "display_resi": "281",
+      "rsa": 0.1981830331419719,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 282,
+      "display_chain": "A",
+      "display_resi": "282",
+      "rsa": 0.4227138684932039,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 283,
+      "display_chain": "A",
+      "display_resi": "283",
+      "rsa": 0.4574318650417245,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 284,
+      "display_chain": "A",
+      "display_resi": "284",
+      "rsa": 0.0514922828466044,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 285,
+      "display_chain": "A",
+      "display_resi": "285",
+      "rsa": 0.3885952259784356,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 286,
+      "display_chain": "A",
+      "display_resi": "286",
+      "rsa": 0.2931430117989066,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 287,
+      "display_chain": "A",
+      "display_resi": "287",
+      "rsa": 0.2080315541783036,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 288,
+      "display_chain": "A",
+      "display_resi": "288",
+      "rsa": 0.3057073522347094,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 289,
+      "display_chain": "A",
+      "display_resi": "289",
+      "rsa": 0.1402997010275833,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 290,
+      "display_chain": "A",
+      "display_resi": "290",
+      "rsa": 0.0209099653059488,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 291,
+      "display_chain": "A",
+      "display_resi": "291",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 292,
+      "display_chain": "A",
+      "display_resi": "292",
+      "rsa": 0.0406763791298858,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 293,
+      "display_chain": "A",
+      "display_resi": "293",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 294,
+      "display_chain": "A",
+      "display_resi": "294",
+      "rsa": 0.0286164122827308,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 295,
+      "display_chain": "A",
+      "display_resi": "295",
+      "rsa": 0.0080875750068273,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 296,
+      "display_chain": "A",
+      "display_resi": "296",
+      "rsa": 0.542853211135244,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 297,
+      "display_chain": "A",
+      "display_resi": "297",
+      "rsa": 0.4060486333401514,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 298,
+      "display_chain": "A",
+      "display_resi": "298",
+      "rsa": 0.0969608817511656,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 299,
+      "display_chain": "A",
+      "display_resi": "299",
+      "rsa": 0.5932320276144625,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 300,
+      "display_chain": "A",
+      "display_resi": "300",
+      "rsa": 0.2056353504827573,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 301,
+      "display_chain": "A",
+      "display_resi": "301",
+      "rsa": 0.740730257699936,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 302,
+      "display_chain": "A",
+      "display_resi": "302",
+      "rsa": 0.2933681977990324,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 303,
+      "display_chain": "A",
+      "display_resi": "303",
+      "rsa": 0.4648048736163184,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 304,
+      "display_chain": "A",
+      "display_resi": "304",
+      "rsa": 0.35358865177257,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 305,
+      "display_chain": "A",
+      "display_resi": "305",
+      "rsa": 0.3151808079188374,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 306,
+      "display_chain": "A",
+      "display_resi": "306",
+      "rsa": 0.0109655309300627,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 307,
+      "display_chain": "A",
+      "display_resi": "307",
+      "rsa": 0.2904472969057152,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 308,
+      "display_chain": "A",
+      "display_resi": "308",
+      "rsa": 8.573872597349826e-06,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 309,
+      "display_chain": "A",
+      "display_resi": "309",
+      "rsa": 0.0974067480540894,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 310,
+      "display_chain": "A",
+      "display_resi": "310",
+      "rsa": 0.0004447625217654,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 311,
+      "display_chain": "A",
+      "display_resi": "311",
+      "rsa": 0.1263143422508889,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 312,
+      "display_chain": "A",
+      "display_resi": "312",
+      "rsa": 0.0082582768343693,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 313,
+      "display_chain": "A",
+      "display_resi": "313",
+      "rsa": 0.0075260270312677,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 314,
+      "display_chain": "A",
+      "display_resi": "314",
+      "rsa": 0.0460305366053259,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 315,
+      "display_chain": "A",
+      "display_resi": "315",
+      "rsa": 0.0738621353102704,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 316,
+      "display_chain": "A",
+      "display_resi": "316",
+      "rsa": 0.1526318148492187,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 317,
+      "display_chain": "A",
+      "display_resi": "317",
+      "rsa": 0.0026202431038869,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 318,
+      "display_chain": "A",
+      "display_resi": "318",
+      "rsa": 0.0347455202618224,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 319,
+      "display_chain": "A",
+      "display_resi": "319",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 320,
+      "display_chain": "A",
+      "display_resi": "320",
+      "rsa": 0.0452742940629691,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 321,
+      "display_chain": "A",
+      "display_resi": "321",
+      "rsa": 0.0313564394529472,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 322,
+      "display_chain": "A",
+      "display_resi": "322",
+      "rsa": 0.0,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 323,
+      "display_chain": "A",
+      "display_resi": "323",
+      "rsa": 0.0050820543219615,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 324,
+      "display_chain": "A",
+      "display_resi": "324",
+      "rsa": 0.1324762481564614,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 325,
+      "display_chain": "A",
+      "display_resi": "325",
+      "rsa": 0.0011287155303159,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 326,
+      "display_chain": "A",
+      "display_resi": "326",
+      "rsa": 0.0025715202137896,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 327,
+      "display_chain": "A",
+      "display_resi": "327",
+      "rsa": 0.0867610163868697,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 328,
+      "display_chain": "A",
+      "display_resi": "328",
+      "rsa": 0.2159681836932434,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 329,
+      "display_chain": "A",
+      "display_resi": "329",
+      "rsa": 0.0048865998150579,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 330,
+      "display_chain": "A",
+      "display_resi": "330",
+      "rsa": 0.3855969118164317,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 331,
+      "display_chain": "A",
+      "display_resi": "331",
+      "rsa": 0.6694357358529881,
+      "interface": false,
+      "eligible": true
+    },
+    {
+      "chain": "A",
+      "position": 332,
+      "display_chain": "A",
+      "display_resi": "332",
+      "rsa": 0.5449660750823212,
+      "interface": false,
+      "eligible": true
+    }
+  ],
+  "aprs": [
+    {
+      "apr_id": "yeast_TDH2_1_6",
+      "start": 1,
+      "end": 6,
+      "sequence": "MVRVAI",
+      "confidence": "moderate",
+      "color": "tv_orange"
+    },
+    {
+      "apr_id": "yeast_TDH2_41_45",
+      "start": 41,
+      "end": 45,
+      "sequence": "SAYMF",
+      "confidence": "moderate",
+      "color": "magenta"
+    },
+    {
+      "apr_id": "yeast_TDH2_128_132",
+      "start": 128,
+      "end": 132,
+      "sequence": "MFVMG",
+      "confidence": "moderate",
+      "color": "cyan"
+    },
+    {
+      "apr_id": "yeast_TDH2_238_245",
+      "start": 238,
+      "end": 245,
+      "sequence": "VSVVDLTV",
+      "confidence": "moderate",
+      "color": "yellow"
+    },
+    {
+      "apr_id": "yeast_TDH2_306_313",
+      "start": 306,
+      "end": 313,
+      "sequence": "VKLVSWYD",
+      "confidence": "moderate",
+      "color": "salmon"
+    }
+  ],
+  "chain": "A",
+  "width": 1600,
+  "height": 1100
+}

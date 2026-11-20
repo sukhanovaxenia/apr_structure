@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "structure": "TDH2_AF",
+  "matched_positions": 332,
+  "maximum_absolute_differences": {
+    "mono_protein_sasa_lr": 0.0,
+    "mono_protein_rsa_lr": 0.0,
+    "mono_protein_sasa_sr": 0.0,
+    "mono_protein_rsa_sr": 0.0
+  },
+  "DSSP_assignments_match": true,
+  "contact_pair_counts_match": true
+}

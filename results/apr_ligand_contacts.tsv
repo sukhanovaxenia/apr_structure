@@ -1,0 +1,10 @@
+structure	protein	ligand_index	resname	ligand_label_chain	ligand_auth_chain	protein_chain	uniprot_pos	aa	minimum_distance	heavy_atom_pairs_within_5A	interpretation	apr_ids
+human_1U8F	human_GAPDH	0	NAD	E	P	B	34	N	3.7377184217112975	8	proximity, not a hydrogen-bond assignment	human_GAPDH_28_34
+human_1U8F	human_GAPDH	0	NAD	E	P	B	37	F	3.531904443781002	22	proximity, not a hydrogen-bond assignment	human_GAPDH_37_49
+human_1U8F	human_GAPDH	0	NAD	E	P	B	38	I	3.720965062991052	4	proximity, not a hydrogen-bond assignment	human_GAPDH_37_49
+human_1U8F	human_GAPDH	1	NAD	F	Q	C	34	N	3.739758815752692	9	proximity, not a hydrogen-bond assignment	human_GAPDH_28_34
+human_1U8F	human_GAPDH	1	NAD	F	Q	C	37	F	3.599350774792585	21	proximity, not a hydrogen-bond assignment	human_GAPDH_37_49
+human_1U8F	human_GAPDH	1	NAD	F	Q	C	38	I	3.704893250823837	5	proximity, not a hydrogen-bond assignment	human_GAPDH_37_49
+human_1U8F	human_GAPDH	2	NAD	G	R	D	34	N	3.655468506224613	9	proximity, not a hydrogen-bond assignment	human_GAPDH_28_34
+human_1U8F	human_GAPDH	2	NAD	G	R	D	37	F	3.604485122732508	22	proximity, not a hydrogen-bond assignment	human_GAPDH_37_49
+human_1U8F	human_GAPDH	2	NAD	G	R	D	38	I	3.642483905249272	5	proximity, not a hydrogen-bond assignment	human_GAPDH_37_49

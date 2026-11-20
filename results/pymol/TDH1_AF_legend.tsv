@@ -1,0 +1,7 @@
+selection	apr_id	start	end	sequence	confidence	color
+APR_01	yeast_TDH1_1_6	1	6	MIRIAI	moderate	tv_orange
+APR_02	yeast_TDH1_65_70	65	70	IIIDGV	moderate	magenta
+APR_03	yeast_TDH1_128_133	128	133	MFVVGV	moderate	cyan
+APR_04	yeast_TDH1_238_245	238	245	VSVVDLTV	moderate	yellow
+APR_05	yeast_TDH1_306_313	306	313	VKLISWYD	moderate	salmon
+APR_06	yeast_TDH1_323_330	323	330	VDLIEYVA	strong	lime

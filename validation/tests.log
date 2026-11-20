@@ -1,0 +1,36 @@
+test_arbitrary_dimer_chain_average (test_contracts.Contracts.test_arbitrary_dimer_chain_average) ... ok
+test_bh_known_example (test_contracts.Contracts.test_bh_known_example) ... ok
+test_boolean_missing_not_false (test_contracts.Contracts.test_boolean_missing_not_false) ... ok
+test_class_filter_has_audit (test_contracts.Contracts.test_class_filter_has_audit) ... ok
+test_composition_null_exact_counts (test_contracts.Contracts.test_composition_null_exact_counts) ... ok
+test_duplicate_fasta_id_rejected (test_contracts.Contracts.test_duplicate_fasta_id_rejected) ... ok
+test_duplicate_intervals_rejected (test_contracts.Contracts.test_duplicate_intervals_rejected) ... ok
+test_exact_p_resolution_and_identity_shift (test_contracts.Contracts.test_exact_p_resolution_and_identity_shift) ... ok
+test_exact_sequence_and_source_metadata (test_contracts.Contracts.test_exact_sequence_and_source_metadata) ... ok
+test_global_mask_overlap_not_double_counted (test_contracts.Contracts.test_global_mask_overlap_not_double_counted) ... ok
+test_group_projection_does_not_become_new_call (test_contracts.Contracts.test_group_projection_does_not_become_new_call) ... ok
+test_missing_chain_position_stays_missing (test_contracts.Contracts.test_missing_chain_position_stays_missing) ... ok
+test_missing_values_are_not_zero (test_contracts.Contracts.test_missing_values_are_not_zero) ... ok
+test_noninteger_positions_rejected (test_contracts.Contracts.test_noninteger_positions_rejected) ... ok
+test_random_seed_is_label_stable (test_contracts.Contracts.test_random_seed_is_label_stable) ... ok
+test_rare_amino_acids_remain_unstandardized (test_contracts.Contracts.test_rare_amino_acids_remain_unstandardized) ... ok
+test_single_target_chain_can_have_assembly_context (test_contracts.Contracts.test_single_target_chain_can_have_assembly_context) ... ok
+test_wrong_full_prediction_sequence_rejected (test_contracts.Contracts.test_wrong_full_prediction_sequence_rejected) ... ok
+test_wrong_peptide_rejected (test_contracts.Contracts.test_wrong_peptide_rejected) ... ok
+test_zero_based_conversion_is_explicit (test_contracts.Contracts.test_zero_based_conversion_is_explicit) ... ok
+test_full_polymer_missing_coordinate_mapping (test_geometry.Geometry.test_full_polymer_missing_coordinate_mapping) ... ok
+test_isolated_sphere_both_algorithms (test_geometry.Geometry.test_isolated_sphere_both_algorithms) ... ok
+test_new_protein_dimer_and_non_NAD_ligand (test_geometry.Geometry.test_new_protein_dimer_and_non_NAD_ligand) ... synthetic_dimer mono_A_protein
+synthetic_dimer mono_A_ligand
+synthetic_dimer mono_B_protein
+synthetic_dimer mono_B_ligand
+synthetic_dimer assembly_protein
+synthetic_dimer assembly_ligand
+ok
+test_noncanonical_polymer_rejected (test_geometry.Geometry.test_noncanonical_polymer_rejected) ... ok
+test_overlapping_spheres_analytic (test_geometry.Geometry.test_overlapping_spheres_analytic) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.439s
+
+OK

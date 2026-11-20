@@ -1,0 +1,104 @@
+{
+  "tool": "apr-structure",
+  "version": "0.1.0",
+  "status": "complete",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1",
+    "PyYAML": "6.0.3"
+  },
+  "source_code_sha256": {
+    "coordinate_engine.py": "9e6c1f9df4bb28c93f5a9a806b4dd6ffa1c5d1ad08ae7d75c034c5eba4d1ad8c",
+    "homology.py": "458a298d4916a3f8ad20b852141fedc8e3c5cbcd189f88a3c8226149ea7b8ca5",
+    "analysis.py": "0b6940aad5eccf541162c7a111d07727f2ecb37e41b17d7023404b936f0f1b1a",
+    "io.py": "3d8d6c7bc4e474a299dc008aaa11cabc8e006e3aa1bcb707460156f3b5dbf53e",
+    "pymol_viewer.py": "5a9734cc1de96ae6f12b5c7de1232d0226cf42a2a678f5748c1941fe74d7bb7f",
+    "measurement.py": "63548c4447146aa8931a76d558f1d68243e7a726c21fcdea89ec1bdcab18410d",
+    "__init__.py": "22bd85d192f815dee9fa59c63cc8496584274402b686c701f62522374afea86e",
+    "visualization.py": "c653e12f17715f7c70faf06de6232a532bd222cab4e9c42c21016b50bff3e9d2",
+    "cli.py": "46879fd43a940eb053bd49d73ac33d27d3d6b472e637e01d69929ba02191e68e",
+    "geometry.py": "48f23b64c7f93e39097ebeed01cbb084e8501980821597d0ca3943fc2fc763d3",
+    "statistics.py": "a1d6daa59a51a29d0c6f174f8a980dbe20920280aacde8d767a2c585d02cb62f",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "report.py": "a8794ce789ba4669096bc3e418a0818fd3c2cc7cbc569482651099ddc89e63cd"
+  },
+  "input_sha256": {
+    "inputs/alignment.fasta": "2d5d70347a3af71b91223a777e5cf77aad986cb806c87576bfa633446e981691",
+    "inputs/amyloscope_config.yaml": "72923d30d4f8cc302c7644ac6956f951088919595a4c94c085efaf3c137a8113",
+    "inputs/consensus_regions.tsv": "327aff1b7d010fb74a44bfa959da7cd976cebd70e81feb0e8bc1f570de241829",
+    "inputs/reference.fasta": "d7543d6c5f94c939e4de58652c64ee27d84b42024937dc6eda13989725ae70f5",
+    "inputs/structures/TDH1_AF/backbone_hbonds.tsv": "6f9dcd764d19d430ae53b9c18773ad563df93449864b9c1bada4121f6d8ec571",
+    "inputs/structures/TDH1_AF/contacts.tsv": "b5ff1147ca7258b96b5b1dfae6a342650184593fc0aa7951cea2aaa162a4ef19",
+    "inputs/structures/TDH1_AF/coordinates.pdb": "9229272b983d374d5653754ea3ee660528eaf1c25f3fd18cb5028c884b0b0a6c",
+    "inputs/structures/TDH1_AF/ligand_contacts.tsv": "9ba258d48e48cd124317b49af3793e0eab04ba441ee2cdaf506ed4f330faa1ec",
+    "inputs/structures/TDH1_AF/residues.tsv": "d9ba52414dd14559570e5bb4c9b0b9d5cc11928e210edb38f810246840cc6ba7",
+    "inputs/structures/TDH1_AF/status.json": "c21046155e462c7b82261667684701087201c1fb20f6bd45a290104aaf8760a8",
+    "inputs/structures/TDH1_AF/strands.tsv": "768ecf5f2c78c069e528ffd5b2ccc3c4409053ae8de21f03cbb030b605d1e2bd",
+    "inputs/structures/TDH1_AF/summary.tsv": "feb08983922fb7ceed2b332fe8a054daeb04efb439f338ebee3e1c28ced64ff9",
+    "inputs/structures/TDH2_AF/backbone_hbonds.tsv": "30cbf258b788015a3fcf7e7d97517b0bb0a80e94b6c9e9f0cbb279c5f86cc221",
+    "inputs/structures/TDH2_AF/contacts.tsv": "52b8c823a1a674a0796de881e44916653c8534d518be6c2220828acf73c8852c",
+    "inputs/structures/TDH2_AF/coordinates.pdb": "aab09684b507987af771ee86553a26e09558d776f94dec6088fe78be2016abe9",
+    "inputs/structures/TDH2_AF/ligand_contacts.tsv": "9ba258d48e48cd124317b49af3793e0eab04ba441ee2cdaf506ed4f330faa1ec",
+    "inputs/structures/TDH2_AF/residues.tsv": "340b856c109224088e3eef2d1fef1449a8e065174b186eced6b135d1c49d16ee",
+    "inputs/structures/TDH2_AF/status.json": "4d132927eaeb82bbd56933f1469a24ba5a33b406893f0a42ed2c69544a522a0a",
+    "inputs/structures/TDH2_AF/strands.tsv": "816dac50e919db05fd16cd1a624dfe5b72325be9ae6d82b0dcdcc0146e15a087",
+    "inputs/structures/TDH2_AF/summary.tsv": "d76a5bc3c5428b96e3114379dc14546dad8bbae943e2278fe50154885955ff01",
+    "inputs/structures/human_1U8F/backbone_hbonds.tsv": "2823646513e793d62192553ba8b4b1651f7e7be77b26fccbd2264a5c11604c8f",
+    "inputs/structures/human_1U8F/contacts.tsv": "b491848384a11d6216f4dcf942617e7d969dcb40ccb2a439c4cbd1e4eeb8fb07",
+    "inputs/structures/human_1U8F/coordinates.pdb": "b03fe4bf338fa0b531572e1a7163c4e040764d78a18862cbcd1f46d45a55a706",
+    "inputs/structures/human_1U8F/ligand_contacts.tsv": "ddb5dfb833ea0eb66f8de8b5237fd5b722db006da8aa12bb37d84865791f8c3b",
+    "inputs/structures/human_1U8F/residues.tsv": "2f70b6a1511a2d0a57b8cd5063d343c859846276f2b0a9127b7b5ca7237abf1d",
+    "inputs/structures/human_1U8F/status.json": "fa26034b39c42d661d5695db6f8ccc389b8cefddc410804bb5c52362275ced7e",
+    "inputs/structures/human_1U8F/strands.tsv": "6b78496ed42cd1069344c45f7418768d33b4231bdea4e1857a01dfb4098186a4",
+    "inputs/structures/human_1U8F/summary.tsv": "c88e567261005902161465f50c4625a075141db5ebeb3390eeeb8049490e1272",
+    "inputs/structures/yeast_3PYM/backbone_hbonds.tsv": "cf514295c9e42ba0023ac36ffa7c945d915d09bdd9180163e4338531d00c1d30",
+    "inputs/structures/yeast_3PYM/contacts.tsv": "05e554478c8081bcbfab609ff0a3e81e9393b8fa9704a572be92b4a6ac87b20d",
+    "inputs/structures/yeast_3PYM/coordinates.pdb": "58f3dfd1e16352aa02248c492a61aa464d79eb105a50425236369f1b8027a177",
+    "inputs/structures/yeast_3PYM/ligand_contacts.tsv": "263c6bb37c9bde7e2d03e48a25ee6ec64fd22bf192e156724ab9755a7f5d1d95",
+    "inputs/structures/yeast_3PYM/residues.tsv": "624e0f6ffe8dcd11c1c1b0020984a8138463988c385c5350d1c17e18214c3e06",
+    "inputs/structures/yeast_3PYM/status.json": "204f41eda6408b03f8072a376eef980e397d3ab8b09c044c3010a485112c6790",
+    "inputs/structures/yeast_3PYM/strands.tsv": "55212513c10395e0cd6351de83024257bd04aa0192a4d4a2b2d8bc540bd7b09d",
+    "inputs/structures/yeast_3PYM/summary.tsv": "ee2482d6187d0ece59bfe6616cde4c03a062eaeb93118ea6a320efb0e3a51e60",
+    "study.json": "8c21d02b10a374ab22e14e391f3f8ba3acb244d403e275f2d4898fa4f0974ad7"
+  },
+  "selected_APRs": 20,
+  "excluded_APRs": 0,
+  "structures": 4,
+  "homologous_groups": 9,
+  "pymol_views": [
+    {
+      "structure": "human_1U8F",
+      "status": "generated_and_mapping_verified",
+      "native_calls": 5
+    },
+    {
+      "structure": "yeast_3PYM",
+      "status": "generated_and_mapping_verified",
+      "native_calls": 4
+    },
+    {
+      "structure": "TDH1_AF",
+      "status": "generated_and_mapping_verified",
+      "native_calls": 6
+    },
+    {
+      "structure": "TDH2_AF",
+      "status": "generated_and_mapping_verified",
+      "native_calls": 5
+    }
+  ],
+  "primary_tests_computed": 15,
+  "primary_tests_unavailable": 9,
+  "final_validation": {
+    "tests_passed": 25,
+    "exact_reproduced_TSVs": 81,
+    "real_backend_regression": "TDH2_AF: 332 positions, zero SASA/RSA differences; DSSP and contact counts match",
+    "pymol_sessions": 4,
+    "pymol_images": 14,
+    "pymol_config_hashes_verified": true,
+    "numerical_reproduction_details": "../validation/table_reproduction.json"
+  },
+  "repository_commit": "0026abfa03ef519f4fc15568c692ed9cb4bdfddf"
+}

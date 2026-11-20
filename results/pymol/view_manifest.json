@@ -1,0 +1,22 @@
+[
+  {
+    "structure": "human_1U8F",
+    "status": "generated_and_mapping_verified",
+    "native_calls": 5
+  },
+  {
+    "structure": "yeast_3PYM",
+    "status": "generated_and_mapping_verified",
+    "native_calls": 4
+  },
+  {
+    "structure": "TDH1_AF",
+    "status": "generated_and_mapping_verified",
+    "native_calls": 6
+  },
+  {
+    "structure": "TDH2_AF",
+    "status": "generated_and_mapping_verified",
+    "native_calls": 5
+  }
+]

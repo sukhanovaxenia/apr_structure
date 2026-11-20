@@ -1,0 +1,6 @@
+selection	apr_id	start	end	sequence	confidence	color
+APR_01	human_GAPDH_28_34	28	34	VDIVAIN	moderate	tv_orange
+APR_02	human_GAPDH_37_49	37	49	FIDLNYMVYMFQY	moderate	magenta
+APR_03	human_GAPDH_130_135	130	135	MFVMGV	moderate	cyan
+APR_04	human_GAPDH_163_171	163	171	VIHDNFGIV	moderate	yellow
+APR_05	human_GAPDH_305_315	305	315	DHFVKLISWYD	moderate	salmon

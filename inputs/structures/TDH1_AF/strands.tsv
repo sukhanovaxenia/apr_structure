@@ -1,0 +1,16 @@
+strand_id	chain	start	end	length	interior_n	partner_strand_count	fraction_interior_one_partner_strand	mean_interior_backbone_hbonds_proxy	edge_candidate	interpretation	context
+A_S1	A	2	7	6	4	2	0.25	3.0	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S2	A	26	32	7	5	2	0.4	2.0	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S3	A	58	60	3	1	1	1.0	2.0	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S4	A	64	67	4	2	2	0.0	2.5	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S5	A	70	75	6	4	2	0.75	1.75	True	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S6	A	92	95	4	2	2	0.0	3.0	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S7	A	116	119	4	2	2	0.0	2.5	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S8	A	144	146	3	1	1	1.0	2.0	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S9	A	168	178	11	9	2	0.2222222222222222	2.4444444444444446	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S10	A	205	208	4	2	1	1.0	1.0	True	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S11	A	226	233	8	6	2	0.3333333333333333	1.8333333333333333	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S12	A	239	247	9	7	2	0.0	3.4285714285714284	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S13	A	272	275	4	2	1	1.0	1.0	True	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S14	A	291	302	12	10	2	0.2	1.4	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
+A_S15	A	305	312	8	6	2	0.16666666666666666	2.0	False	topological candidate; inspect both faces, caps, solvent exposure and uncertainty	mono_A
